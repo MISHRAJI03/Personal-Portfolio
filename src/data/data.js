@@ -1,30 +1,37 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaGlobe} from "react-icons/fa";
-import { SiAntdesign } from "react-icons/si";
+import { FaGlobe, FaShieldAlt, FaCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Coding",
-    des: "I am having the knowledge of C, C++, Python, Java, JavaScript, HTML, CSS, React, and many more.",
+    icon: <FaShieldAlt />, 
+    title: "Cyber Security",
+    des: "Currently pursuing a Certified Ethical Hacking (CEH) course for global certification, demonstrating a strong commitment to cybersecurity and ethical hacking best practices.",
   },
   {
     id: 2,
-    icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "I know the basics of Android Development and can work as a front-end designer.",
+    icon: <FaCode />, 
+    title: "Coding",
+    des: "Proficient in multiple programming languages including C, C++, Python, Java, JavaScript, HTML, CSS, and React, with expertise in developing robust and scalable solutions.",
   },
   {
     id: 3,
-    icon: <SiAntdesign />,
-    title: "Graphics Designing",
-    des: "I am having the knowledge of Adobe Photoshop, Adobe Illustrator, and Figma.",
+    icon: <FaMobileAlt />, 
+    title: "App Development",
+    des: "Experienced in Android development fundamentals with a strong focus on front-end design and user interface implementation.",
   },
   {
     id: 4,
-    icon: <FaGlobe />,
+    icon: <FaPaintBrush />, 
+    title: "Graphics Designing",
+    des: "Skilled in visual design and digital content creation using industry-standard tools including Adobe Photoshop, Adobe Illustrator, and Figma.",
+  },
+  {
+    id: 5,
+    icon: <FaLaptopCode />, 
     title: "Website Development",
-    des: "I can design and develop websites using HTML, CSS, JavaScript, React, and many more.",
+    des: "Specialized in designing and developing responsive websites utilizing modern web technologies including HTML, CSS, JavaScript, and React.",
   },
 ];

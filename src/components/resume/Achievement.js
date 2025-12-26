@@ -7,77 +7,55 @@ const Achievement = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex flex-col lg:flex-row gap-10 lg:gap-20"
+      className="py-6 font-titleFont flex flex-col gap-10"
     >
-      <div className="w-full lg:w-1/2">
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2019-2025</p>
-          <h2 className="text-4xl font-bold">Tech-Fest</h2>
-        </div>
-        <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="EQUINOX 2019"
-            subTitle="Techno International Batanagar"
-            result="Runner Up"
-            des="Won Runner Up in the event of Tech-Fest EQUINOX 2019."
-          />
-          <ResumeCard
-            title="West Bengal State Student-Youth Science Fair 2019."
-            subTitle="Government of West Bengal."
-            result="2nd Runner Up"
-            des="This event is organized by the Department of Youth Services & Sports, Government of West Bengal in collaboration with Departments of School Education, Higher Education, Government of West Bengal, Department of Science & Technology and Bio-technology, Government of West Bengal, West Bengal State Council of Science & Technology, Jagadis Bose National science Talent Search & Birla Industrial & Technological Museum, Kolkata."
-          />
-          <ResumeCard
-            title="League of Errors Coding Competition"
-            subTitle="Budge Budge Institute of Technology"
-            result="Rank 55"
-            des="This event is organized by the Department of Computer Science & Engineering, Budge Budge Institute of Technology in collaboration with Coding Ninja and Coders Club of BBIT."
-          />
-          <ResumeCard
-            title="Codekaze Sep-23"
-            subTitle="Coding Ninja collaborated with Naukri.com"
-            result="Success"
-            des="Successfully qualified for round 2"
-          />
-        </div>
+      <div className="font-titleFont flex flex-col gap-4">
+        <p className="text-sm text-designColor tracking-[4px]">2019-2025</p>
+        <h2 className="text-4xl font-bold">Tech-Fest & Achievements</h2>
       </div>
-      <div className="w-full lg:w-1/2">
-        <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2025</p>
-          <h2 className="text-4xl font-bold">Courses</h2>
-        </div>
-        <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="C Programming Language"
-            subTitle="QSPIDER"
-            result="Success"
-            des="Successfully Completed my course on C Programming Language from QSPIDER."
-          />
-          <ResumeCard
-            title="DBMS"
-            subTitle="QSPIDER"
-            result="Success"
-            des="Successfully Completed my course on DBMS from QSPIDER."
-          />
-          <ResumeCard
-            title="Artificial Intelligence Fundamentals"
-            subTitle="IBM"
-            result="Success"
-            des="Successfully Completed my course on Artificial Intelligence Fundamentals from IBM."
-          />
-          <ResumeCard
-            title="Cyber Essentials"
-            subTitle="CISCO"
-            result="Success"
-            des="Successfully Completed my course on Cyber Essentials from CISCO and certified as Junior Cyber Security Analyst."
-          />
-          <ResumeCard
-            title="Geo Data & Cyber Security"
-            subTitle="ISRO"
-            result="Success"
-            des="Successfully Completed my course on Geo Data & Cyber Security from ISRO."
-          />
-        </div>
+      <div className="w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+          title="Certificate of Appreciation - ICSCCA 2K25"
+          subTitle="International Conference on Smart Computing, Communication and Automation"
+          result="Awarded"
+          des="Recognized for instrumental contributions in developing the official conference website for ICSCCA 2K25, held on August 2nd & 3rd, 2025. Awarded by Budge Budge Institute of Technology (BBIT), Kolkata, acknowledging dedication and technical expertise in driving the conference's digital presence toward substantial success."
+        />
+        <ResumeCard
+          title="Certificate of Completion - Bootcamp on Robotic Process Automation"
+          subTitle="C-DAC Kolkata x Budge Budge Institute of Technology"
+          result="92/100"
+          des="Successfully completed the FutureSkills PRIME Bootcamp on Robotic Process Automation conducted by C-DAC Kolkata in association with Budge Budge Institute of Technology. The bootcamp was held from February 17th-21st, 2025, as part of the FutureSkills PRIME Project (A MeitY & nasscom Digital Skilling Initiative). Achieved an overall score of 92 marks with strong performance in both practical (44/44) and theoretical (48/48) assessments."
+        />
+        <ResumeCard
+          title="Certificate of Workshop Completion - Ethical Hacking"
+          subTitle="Remarkskill Education x Aarohan, NIT Durgapur"
+          result="Completed"
+          des="Successfully completed the Remark Skill Technical Workshop on Ethical Hacking held on March 22nd-23rd, 2025 at NIT Durgapur. The workshop, conducted in association with Aarohan (NIT Durgapur's annual techno-management fest), provided hands-on training in ethical hacking techniques, vulnerability assessment, and cybersecurity best practices."
+        />
+        <ResumeCard
+          title="Codekaze Sep-23"
+          subTitle="Coding Ninja collaborated with Naukri.com"
+          result="Success"
+          des="Advanced to the second round of the competitive coding championship, demonstrating strong problem-solving capabilities and algorithmic proficiency."
+        />
+        <ResumeCard
+          title="League of Errors Coding Competition 2023"
+          subTitle="Budge Budge Institute of Technology"
+          result="Rank 55"
+          des="Secured 55th position in the inter-collegiate competitive programming event organized by the Department of Computer Science & Engineering in collaboration with Coding Ninjas and Coders Club of BBIT."
+        />
+        <ResumeCard
+          title="West Bengal State Student-Youth Science Fair 2019."
+          subTitle="Government of West Bengal."
+          result="2nd Runner Up"
+          des="Awarded Second Runner-Up at the state-level science fair organized by the Department of Youth Services & Sports, Government of West Bengal. The project demonstrated innovative scientific research and received recognition among participants from across the state."
+        />
+        <ResumeCard
+          title="EQUINOX 2019"
+          subTitle="Techno International Batanagar"
+          result="Runner Up"
+          des="Secured Runner-Up position in the technical symposium EQUINOX 2019, showcasing innovative technical solutions and demonstrating excellence in inter-institutional competition."
+        />
       </div>
     </motion.div>
   );
