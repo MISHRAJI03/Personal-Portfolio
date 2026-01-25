@@ -15,7 +15,8 @@ const Resume = () => {
   const [languageData, setLanguageData] = useState(false);
   const [achievementData, setAchievementData] = useState(false);
   return (
-    <section id="resume" className="w-full py-5 border-b-[1px] border-b-black">
+    <>
+    <section id="resume" className="w-full py-5">
       <div className="flex justify-center items-center text-center">
         <Title title="ACADEMICS" des="My Resume" />
       </div>
@@ -25,6 +26,7 @@ const Resume = () => {
             onClick={() => {
               setEducationData(true);
               setCourseData(false);
+              setInternshipData(false);
               setSkillData(false);
               setLanguageData(false);
               setAchievementData(false);
@@ -90,6 +92,7 @@ const Resume = () => {
             onClick={() => {
               setEducationData(false);
               setCourseData(false);
+              setInternshipData(false);
               setSkillData(false);
               setLanguageData(true);
               setAchievementData(false);
@@ -105,6 +108,7 @@ const Resume = () => {
             onClick={() => {
               setEducationData(false);
               setCourseData(false);
+              setInternshipData(false);
               setSkillData(false);
               setLanguageData(false);
               setAchievementData(true);
@@ -126,6 +130,7 @@ const Resume = () => {
       {achievementData && <Achievement />}
  
     </section>
+    </>
   );
 }
 

@@ -15,7 +15,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2007 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education BackGround</h2>
         </div>
-        <div className="mt-3.5 lgl:mt-7 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-5">
+        <div className="lgl:mt-7 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-5">
           <ResumeCard
             title="BTech in Computer Science Enginnering specialization in CYBER SECURITY"
             subTitle="Budge Budge Institute of Technology (2022 - 2026)"

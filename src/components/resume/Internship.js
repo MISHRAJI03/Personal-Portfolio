@@ -13,7 +13,7 @@ const Internship = () => {
         <p className="text-sm text-designColor tracking-[4px]">2025</p>
         <h2 className="text-4xl font-bold">Internships</h2>
       </div>
-      <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+      <div className="w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
           title="Virtual Internship - Cybersecurity with AI"
           subTitle="NIIT Foundation"
