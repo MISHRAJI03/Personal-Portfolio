@@ -1,5 +1,4 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaGlobe, FaShieldAlt, FaCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
+import { FaShieldAlt, FaCode, FaMobileAlt, FaPaintBrush } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 
 // Features Data
